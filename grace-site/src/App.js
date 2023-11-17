@@ -15,6 +15,7 @@ function App() {
         <Routes>
           <Route element={<Home/>}/>
           <Route element={<Projects/>}/>
+          <Route element={}/>
           <Route element={<Navigate to="/home"/>} path="/*"/>
         </Routes>
       </BrowserRouter>
