@@ -1,14 +1,14 @@
 const BASE_URL = "http://localhost:5001";
 /** API class
  * static class with method to retrieve personal information about myself
- * from Python/Flask backend
+ * from Python/Flask backend.
  *
  */
 
 class PersonalInfoApi {
 
   static async getInfo() {
-    const resp = await fetch(`${BASE_URL}`);
+    const resp = await fetch(`${BASE_URL}/me`);
     const info = resp.json();
     return info;
   }
