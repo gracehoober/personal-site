@@ -1,12 +1,17 @@
-// renders two options- Red-returns json from backend call(python)
-//blue return pretty front end single page app
-
-function NavBar(){
- return (
-  <div className="NavBar">
-    <button className="red">Red</button>
-    <button className="blue">Blue</button>
-  </div>
- )
+import React from "react";
+import { Link, NavLink } from 'react-router-dom';
+import './NavBar.css';
+/**
+ *
+ *
+ */
+function NavBar() {
+  return (
+    <nav className="NavBar">
+      <NavLink to="/home">About</NavLink>
+      <NavLink to="/projects">Projects</NavLink>
+      <NavLink to="/contact">Contact</NavLink>
+    </nav>
+  );
 }
-export default NavBar
+export default NavBar;
