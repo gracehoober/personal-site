@@ -1,8 +1,8 @@
 import portrait from "./images/portrait.jpg";
 import "./About.css";
 
-/**
- *
+/** Renders the home page
+ * no props, no state
  */
 
 function About() {
