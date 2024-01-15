@@ -3,7 +3,28 @@
  *
  */
 
-
+const projects = [
+  {
+    name: "Jobly",
+    tools: ["React", "Express"],
+    description: "", githubLink: "",
+    completed: true,
+  },
+  {
+    name: "Pix.ly",
+    tools: ["React", "Flask"],
+    description: "",
+    githubLink: "",
+    completed: true,
+  },
+  {
+    name: "Lookbook",
+    tools: [],
+    description: "",
+    githubLink: "",
+    completed: false,
+  },
+   ];
 
 function Projects() {
   return (
