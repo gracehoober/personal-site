@@ -9,7 +9,7 @@ To view the deployed site please visit:
 
 ## Features
 - Future features include and API call to a back end containing all of my personal information.
-- 
+- A rotating feature of fun facts about me (React-Typed).
 
 ## Instructions for use:
  - To start the app run `$ npm start`
