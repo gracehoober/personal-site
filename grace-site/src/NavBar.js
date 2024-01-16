@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 /**
  *
@@ -7,11 +7,13 @@ import { Link, NavLink } from 'react-router-dom';
  */
 function NavBar() {
   return (
-    <nav className="NavBar">
-      <h1 className='text-white'>Grace Hoober</h1>
-      <NavLink to="/home">About</NavLink>
-      <NavLink to="/projects">Projects</NavLink>
-      <NavLink to="/contact">Contact</NavLink>
+    <nav className="flex flex-column">
+      <h1 className="self-start basis-1/4">Grace Hoober</h1>
+      <div className="basis-3/4">
+        <NavLink className="" to="/home">About</NavLink>
+        <NavLink className="" to="/projects">Projects</NavLink>
+        <NavLink className="" to="/contact">Contact</NavLink>
+      </div>
     </nav>
   );
 }

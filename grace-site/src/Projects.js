@@ -9,6 +9,8 @@ const projects = [
     tools: ["React", "Express"],
     description: "", githubLink: "",
     completed: true,
+    preview: "a",
+
   },
   {
     name: "Pix.ly",
@@ -16,6 +18,7 @@ const projects = [
     description: "",
     githubLink: "",
     completed: true,
+    preview: "a",
   },
   {
     name: "Lookbook",
@@ -23,6 +26,7 @@ const projects = [
     description: "",
     githubLink: "",
     completed: false,
+    preview: "a",
   },
    ];
 
