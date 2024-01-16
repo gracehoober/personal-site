@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from 'react-router-dom';
-import './NavBar.css';
+
 /**
  *
  *
@@ -8,6 +8,7 @@ import './NavBar.css';
 function NavBar() {
   return (
     <nav className="NavBar">
+      <h1 className='text-white'>Grace Hoober</h1>
       <NavLink to="/home">About</NavLink>
       <NavLink to="/projects">Projects</NavLink>
       <NavLink to="/contact">Contact</NavLink>
@@ -15,3 +16,4 @@ function NavBar() {
   );
 }
 export default NavBar;
+

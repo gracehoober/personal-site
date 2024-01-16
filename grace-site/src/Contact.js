@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 import postAlleyPort from "./images/postAlleyPort.jpeg";
 import Oslo from "./images/Oslo.jpeg";
-import "./Contact.css";
 
 /** Renders the Contact componenet
  * no props, no state
